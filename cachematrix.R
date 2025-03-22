@@ -1,10 +1,10 @@
-# In this excercise we have two functions: makeCacheMatrix and cachesolve
-# these functions are used to obtain the inverse of a matrix. to avoid 
-# recalculating it and spending computational resources, we store the inverse
-# in a cache memory, wich can be retrieved when needed. 
+## In this excercise we have two functions: makeCacheMatrix and cachesolve
+## these functions are used to obtain the inverse of a matrix. to avoid 
+## recalculating it and spending computational resources, we store the inverse
+## in a cache memory, wich can be retrieved when needed. 
 
-# the makeCacheMatrix functions creates a structue that stores a matrix 
-# and its inverse in cache memory 
+## the makeCacheMatrix functions creates a structue that stores a matrix 
+## and its inverse in cache memory 
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
@@ -26,7 +26,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-# cacheSolve calculates the inverse of the matrix if it's not already cached 
+## cacheSolve calculates the inverse of the matrix if it's not already cached 
 
 
 
